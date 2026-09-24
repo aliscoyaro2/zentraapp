@@ -1,9 +1,30 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
 build/
 www/
-.DS_Store
-*.log
+
+# npm cache (this is what's polluting your repo)
+.npm/
+.npmrc
+
+# Environment
 .env
-android/
-ios/
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Capacitor: KEEP android/ and ios/ tracked
+# (do NOT add them here — you need them for the build)
