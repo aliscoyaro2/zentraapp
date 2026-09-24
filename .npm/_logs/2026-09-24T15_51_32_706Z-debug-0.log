@@ -1,0 +1,38 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install @capacitor/core
+7 verbose argv "install" "@capacitor/core"
+8 verbose logfile logs-max:10 dir:/public/.npm/_logs/2026-09-24T15_51_32_706Z-
+9 verbose logfile /public/.npm/_logs/2026-09-24T15_51_32_706Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly idealTree buildDeps
+13 silly fetch manifest @capacitor/core@*
+14 silly packumentCache full:https://registry.npmjs.org/@capacitor%2fcore cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@capacitor%2fcore 2299ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/@capacitor%2fcore set size:undefined disposed:false
+17 silly placeDep ROOT @capacitor/core@8.5.2 OK for:  want: *
+18 silly fetch manifest tslib@^2.1.0
+19 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/tslib 338ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+22 silly placeDep ROOT tslib@2.8.1 OK for: @capacitor/core@8.5.2 want: ^2.1.0
+23 silly reify moves {}
+24 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 2ms (cache hit)
+25 http cache @capacitor/core@https://registry.npmjs.org/@capacitor/core/-/core-8.5.2.tgz 0ms (cache hit)
+26 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+27 silly tarball no local data for @capacitor/core@https://registry.npmjs.org/@capacitor/core/-/core-8.5.2.tgz. Extracting by manifest.
+28 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 423ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/@capacitor/core/-/core-8.5.2.tgz 1331ms (cache miss)
+30 silly ADD node_modules/tslib
+31 silly ADD node_modules/@capacitor/core
+32 verbose cwd /public
+33 verbose os Linux 4.19.191-g08001bbaf9a5-dirty
+34 verbose node v22.23.2
+35 verbose npm  v10.9.1
+36 verbose exit 0
+37 info ok

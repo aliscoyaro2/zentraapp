@@ -1,0 +1,10 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v22.23.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm exec cap add android
+7 verbose argv "exec" "--" "cap" "add" "android"
+8 verbose logfile logs-max:10 dir:/public/.npm/_logs/2026-09-24T16_07_06_660Z-
+9 verbose logfile /public/.npm/_logs/2026-09-24T16_07_06_660Z-debug-0.log
